@@ -1,0 +1,9 @@
+[build]
+  publish = "/"  # نشر ملفات الجذر مباشرة
+  command = ""   # لا حاجة لأمر بناء إذا لم تستخدم npm
+
+[[redirects]]
+  from = "/*"
+  to = "/welcome_screen.html"
+  status = 301
+  force = true
